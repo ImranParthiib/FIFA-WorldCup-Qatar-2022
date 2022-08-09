@@ -1,0 +1,81 @@
+ /* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Common CSS Started */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+
+}
+main{
+     margin: 40px 55px 130px 55px;
+}
+.banner{
+    display: flex;
+    background-color: #55bf95;
+    border-radius: 18px;
+    padding-top: 30px;
+     
+}
+.banner-text{
+    padding-top: 30px;
+    padding-left: 65px;
+}
+.banner-text h1{
+    font-weight: 700;
+    font-size: 40px; 
+    color: aliceblue;
+}
+   .banner-text h1:hover{
+    color: #00ffbf;
+
+    }
+.banner-text p{
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.watch{
+    background-color: #d03f3f;
+    width: 110px;
+    height: 30px;
+    padding-left:9px;
+    padding-top: 3px;
+    border-radius: 5px;
+
+}
+#live{
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+    font-size: 14px;
+}
+.fa-angle-right{
+    color: rgb(249, 249, 249);
+    font-size: 12px;
+    padding-left: 4px;
+    
+}
+.goat img{
+    width: 470px;
+    height: 480px;
+    padding-right: 20px;
+    transition: transform .4s;
+    transition-timing-function: ease-in-out;
+     
+}
+
+.banner img:hover{
+    -ms-transform: scale(1.2);  
+    -webkit-transform: scale(1.2);  
+    transform: scale(1.1);
+}
+.qatar img{
+    width: 120px;
+    height: 200px;
+    
+    padding-bottom: 800px;
+
+}
+ 
