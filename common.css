@@ -2,26 +2,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /* Common CSS Started */
+ 
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
 }
+ header{
+    background-color: rgba(76, 133, 163, 0.8);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 80px 1000px 300px 80px;
+} 
+ header > div {
+    font-size: 18px;
+ }
+ .left img{
+    padding-left: 50px;
+ }
+ .uses {
+    text-decoration: none;
+    padding-top: 40px;
+    padding-left: 60px;
+ }
+ .uses a{
+    text-decoration: none;
+    padding-left: 10px;
+ }
+ .uses:hover{
+    color: navajowhite;
+ }
+ .uses a:hover{
+    color: yellow;
+ }
+ .user{
+    padding-top: 40px;
+    padding-left: 50px;
+ }
+ .user a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(197, 222, 135);
+ }
+ .user .active{
+    color: cornflowerblue;
+    font-size: 23px;
+ }
+  /*----------------------
+    Main Section Started
+  ---------------------- */
 main{
-     margin: 40px 55px 130px 55px;
+     margin: 45px 110px 130px 110px;
 }
 .banner{
     display: flex;
     background-color: #55bf95;
     border-radius: 18px;
     padding-top: 30px;
-     
 }
 .banner-text{
     padding-top: 30px;
-    padding-left: 65px;
+    padding-left: 100px;
 }
 .banner-text h1{
     font-weight: 700;
@@ -35,32 +76,32 @@ main{
 .banner-text p{
     font-weight: 400;
     font-size: 16px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 .watch{
-    background-color: #d03f3f;
-    width: 110px;
-    height: 30px;
-    padding-left:9px;
-    padding-top: 3px;
+    background-color: #d03f3f; 
+    width: 157px;
+    height: 44px;
+    padding-left:23px;
+    padding-top: 10px;
     border-radius: 5px;
 
 }
 #live{
     text-decoration: none;
     color: rgb(249, 249, 249);
-    font-size: 14px;
+    font-size: 20px;
 }
 .fa-angle-right{
     color: rgb(249, 249, 249);
-    font-size: 12px;
-    padding-left: 4px;
+    font-size: 18px;
+    padding-left: 5px; 
     
 }
 .goat img{
-    width: 470px;
-    height: 480px;
-    padding-right: 20px;
+    width: 613px;
+    height: 581px;
+    padding-right: 100px;
     transition: transform .4s;
     transition-timing-function: ease-in-out;
      
