@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #226ee0ae;
-   
+
 }
  header{
     background-color: #3364ba;
@@ -54,7 +54,7 @@ body{
     color: rgb(198, 84, 3);
     font-size: 23px;
  }
- 
+
   /*----------------------
     Main Section Started
   ---------------------- */
@@ -75,7 +75,7 @@ main{
 .banner-text{
     margin-top: 30px;
     margin-left: 100px;
-    width: 40%; 
+    width: 40%;
 }
 .banner-text h1{
     color: white;
@@ -143,6 +143,32 @@ main{
  .contents{
     display: grid;
     grid-template-columns: 1fr 3.4fr;
+    gap: 30px;
+ }
+ .menu-option{
+   background: rgba(240, 237, 232, 0.946);
+   border-radius: 10px;
+   min-width:260px;
+   height: 270px;
+   padding: 30px;
+ }
+ .menu-option div{
+    background-color: #DD0000;
+    padding:20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 18px;
+ }
+
+ .menu-option a{
+   text-decoration: none;
+   color: black;
+ }
+ .menu-option div:hover{
+   -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
  }
  .blogs{
     display: grid;
@@ -150,15 +176,53 @@ main{
     gap: 30px;
     }
 
+   .design{
+   width: 312px;
+   height: 362px;
+   border: 1px solid rgba(239, 9, 9, 0.937);
+   border-radius: 10px;
+}
 
+/*------------------------------------
+  Upcoming match CSS/Match.html CSS Here
+ ---------------------------------- */
+   .upcoming-matches{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 30px; 
+      }
 
+   .match-details{
+      border: 1px solid rgba(239, 9, 9, 0.937);
+      border-radius: 10px;
+      padding: 40px;
+   }
+   .flags{
+      display: flex;
+      gap: 11px;
+      align-items: center;
 
-
+  }
+  .flags span{
+      font-weight: 700;
+  }
+  .flags img{
+      width: 100%;
+  }
+  .match-time{
+      text-align: center;
+  }
+  .match-time p{
+   opacity: 0.7;
+}
+.match-details div:hover{
+   -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+ }
 /* ---------------
 footer Section CSS
 --------------- */
-
-
 footer{
     text-align: center;
     background-color: #226ee0;
@@ -191,15 +255,20 @@ footer hr{
     column-gap: 35px;
     justify-content: center;
     font-size: 35px;
-
-
 }
+
  .follow-us .fb{
- color: aliceblue;
+ color: lightcoral;
 }
  .follow-us .lin{
    color: lightcoral;
 }
  .follow-us .git{
-    color:#060606;
+   color: lightcoral;
 }
+.footer-head h2:hover{
+   color: crimson;
+  }
+.footer-head a:hover{
+   color: snow;
+ }
