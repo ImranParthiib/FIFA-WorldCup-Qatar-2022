@@ -2,32 +2,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /* Common CSS Started */
- 
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #226ee0ae;
+   
 }
  header{
-    background-color: rgba(76, 133, 163, 0.8);
+    background-color: #3364ba;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: 80px 1000px 300px 80px;
-} 
+    grid-template-columns: 80px 1000px 310px 80px;
+}
  header > div {
     font-size: 18px;
  }
  .left img{
-    padding-left: 50px;
+    padding-left: 60px;
  }
  .uses {
     text-decoration: none;
-    padding-top: 40px;
+    padding-top: 25px;
     padding-left: 60px;
  }
  .uses a{
     text-decoration: none;
     padding-left: 10px;
+ }
+ .uses .active{
+    font-size: 30px;
+    color: bisque;
  }
  .uses:hover{
     color: navajowhite;
@@ -36,87 +42,164 @@ body{
     color: yellow;
  }
  .user{
-    padding-top: 40px;
-    padding-left: 50px;
+    padding-top: 30px;
+    padding-left: 90px;
  }
  .user a{
     padding-left: 10px;
     text-decoration: none;
-    color: rgb(197, 222, 135);
+    color: rgb(3, 7, 3);
  }
  .user .active{
-    color: cornflowerblue;
+    color: rgb(198, 84, 3);
     font-size: 23px;
  }
+ 
   /*----------------------
     Main Section Started
   ---------------------- */
 main{
-     margin: 45px 110px 130px 110px;
+     margin: 30px 100px 0px 100px;
 }
 .banner{
-    display: flex;
-    background-color: #55bf95;
-    border-radius: 18px;
-    padding-top: 30px;
+    display:flex;
+    background-color: #3574d2;
+    margin-bottom: 130px;
+    position: relative;
+}
+.banner{
+    border-radius: 20px;
+    width: 1321px;
+    height: 646px;
 }
 .banner-text{
-    padding-top: 30px;
-    padding-left: 100px;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 40%; 
 }
 .banner-text h1{
+    color: white;
     font-weight: 700;
-    font-size: 40px; 
-    color: aliceblue;
+    font-size: 65px;
+    width: 500px;
+    height: 200px;
 }
-   .banner-text h1:hover{
+.banner-text h1:hover{
     color: #00ffbf;
-
     }
 .banner-text p{
-    font-weight: 400;
-    font-size: 16px;
-    padding-bottom: 50px;
+    width: 506px;
+    height: 78px;
+    font-size: 17px;
+    padding-bottom: 30px;
 }
-.watch{
-    background-color: #d03f3f; 
-    width: 157px;
-    height: 44px;
-    padding-left:23px;
-    padding-top: 10px;
-    border-radius: 5px;
-
-}
-#live{
-    text-decoration: none;
-    color: rgb(249, 249, 249);
-    font-size: 20px;
-}
-.fa-angle-right{
-    color: rgb(249, 249, 249);
+.banner-text p:hover{
+    color: bisque;
     font-size: 18px;
-    padding-left: 5px; 
-    
 }
-.goat img{
-    width: 613px;
-    height: 581px;
+.banner-text a{
+    text-decoration: none;
+    color: bisque;;
+}
+.banner-text button{
+    background-color: rgb(239, 14, 14);;
+    margin-top: 15px;
+    color: bisque;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+ }
+ .banner-text button:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+
+ }
+ .goat{
+    width: 45%;
     padding-right: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+ }
+ .goat img{
+    width: 670px;
+    height: 640px;
     transition: transform .4s;
     transition-timing-function: ease-in-out;
-     
-}
-
+ }
 .banner img:hover{
-    -ms-transform: scale(1.2);  
-    -webkit-transform: scale(1.2);  
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
     transform: scale(1.1);
 }
-.qatar img{
-    width: 120px;
-    height: 200px;
-    
-    padding-bottom: 800px;
+
+/*------------------------------------
+   Menu & Content section started
+ ---------------------------------- */
+ .contents{
+    display: grid;
+    grid-template-columns: 1fr 3.4fr;
+ }
+ .blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    }
+
+
+
+
+
+/* ---------------
+footer Section CSS
+--------------- */
+
+
+footer{
+    text-align: center;
+    background-color: #226ee0;
+}
+footer h2{
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 110px;
+    color: rgb(229, 229, 229);
+}
+footer hr{
+   margin: 20px 150px 20px 150px;
+   opacity: 0.4;
+}
+.footer-nav a{
+    opacity: 0.7;
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 16px;
+}
+.footer-nav{
+    display: flex;
+    column-gap: 52px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.follow-us{
+    display: flex;
+    padding: 50px;
+    column-gap: 35px;
+    justify-content: center;
+    font-size: 35px;
+
 
 }
- 
+ .follow-us .fb{
+ color: aliceblue;
+}
+ .follow-us .lin{
+   color: lightcoral;
+}
+ .follow-us .git{
+    color:#060606;
+}
