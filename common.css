@@ -13,7 +13,7 @@ header {
   background-color: #3364ba;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: 80px 1000px 310px 80px;
+  grid-template-columns: 80px 1000px 315px 80px;
 }
 header > div {
   font-size: 18px;
@@ -23,35 +23,61 @@ header > div {
 }
 .uses {
   text-decoration: none;
-  padding-top: 25px;
+  padding-top: 14px;
   padding-left: 60px;
 }
 .uses a {
   text-decoration: none;
   padding-left: 10px;
+  color: azure;
 }
 .uses .active {
   font-size: 30px;
-  color: bisque;
+  color: rgb(13, 12, 12);
 }
 .uses:hover {
-  color: navajowhite;
+  color: rgb(53, 234, 21);
 }
 .uses a:hover {
-  color: yellow;
+  color: rgb(242, 159, 159);
+  font-weight: 600;
 }
+.uses .active:hover {
+  color: darkorange;
+}
+
 .user {
-  padding-top: 30px;
-  padding-left: 90px;
+  padding-top: 24px;
+  padding-left: 60px;
+}
+.user button {
+  border-radius: 10px;
+  background-color: rgb(27, 22, 19);
+}
+.user .fa-magnifying-glass {
+  padding-right: 5px;
+  transition: transform 0.4s;
+}
+.user .fa-magnifying-glass:hover {
+  color: lightsalmon;
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.5);
 }
 .user a {
-  padding-left: 10px;
   text-decoration: none;
   color: rgb(3, 7, 3);
 }
 .user .active {
   color: rgb(198, 84, 3);
-  font-size: 23px;
+  font-size: 22px;
+}
+.user .passive {
+  font-size: 20px;
+}
+.user a:hover {
+  color: rgb(232, 45, 28);
+  color: azure;
 }
 
 /*----------------------
@@ -194,9 +220,10 @@ main {
 
 .design {
   width: 312px;
-  height: 362px;
+  height: 363px;
   border: 1px solid rgba(217, 203, 203, 0.937);
   border-radius: 10px;
+  background-color: rgb(188, 223, 254);
 }
 .design img {
   border-radius: 10px 10px 0 0;
@@ -210,7 +237,7 @@ main {
 .click-para button {
   background-color: rgb(247, 252, 254);
   border-radius: 3px;
-  padding: 3px;
+  padding: 2px;
   font-weight: 700;
 }
 .click-para a {
@@ -230,13 +257,25 @@ main {
 .time-chat {
   margin: 12px;
 }
+
 .time-chat .fa-clock {
   margin: 15px;
-  color: #00ffbf;
+  color: #430419;
+}
+.time-chat .fa-clock:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.5);
 }
 .time-chat .fa-comment-dots {
   margin: 15px;
   padding-left: 17px;
+  color: #197209;
+}
+.time-chat .fa-comment-dots:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.5);
 }
 
 /*------------------------------------
@@ -261,9 +300,10 @@ main {
 }
 
 .match-details {
-  border: 1px solid rgba(239, 9, 9, 0.937);
+  border: 1px solid rgba(221, 156, 156, 0.937);
   border-radius: 10px;
   padding: 40px;
+  background-color: rgb(188, 223, 254);
 }
 .flags {
   display: flex;
@@ -293,6 +333,11 @@ main {
             Group page CSS Here Started
  ----------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap");
+.World-cup-Qualifiers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
 .past {
   background-color: aliceblue;
 }
@@ -302,11 +347,11 @@ main {
 .present a {
   color: aliceblue;
 }
-.final-groups img {
+.final-groups {
+  background-color: rgb(188, 223, 254);
+  border: 1px solid rgba(252, 203, 203, 0.698);
   border-radius: 10px;
-}
-.group-section {
-  background-color: brown;
+  padding: 40px;
 }
 .flexing {
   display: flex;
