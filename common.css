@@ -31,12 +31,15 @@ header > div {
   padding-left: 10px;
   color: azure;
 }
+.uses .fa-bars {
+  color: aliceblue;
+}
 .uses .active {
   font-size: 30px;
   color: rgb(13, 12, 12);
 }
-.uses:hover {
-  color: rgb(53, 234, 21);
+.fa-bars:hover {
+  color: red;
 }
 .uses a:hover {
   color: rgb(242, 159, 159);
@@ -91,8 +94,6 @@ main {
   background-color: #3574d2;
   margin-bottom: 130px;
   position: relative;
-}
-.banner {
   border-radius: 20px;
   width: 1321px;
   height: 646px;
@@ -168,6 +169,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 3.4fr;
   gap: 30px;
+  padding-bottom: 80px;
 }
 .menu-option {
   position: sticky;
@@ -248,11 +250,11 @@ main {
   -ms-transform: scale(1.3);
   -webkit-transform: scale(1.3);
   transform: scale(1.2);
-  background-color: crimson;
+  background-color: rgb(168, 241, 112);
 }
 .click-para a:hover {
   text-decoration: none;
-  color: aliceblue;
+  /* color: aliceblue; */
 }
 .time-chat {
   margin: 12px;
@@ -277,6 +279,76 @@ main {
   -webkit-transform: scale(1.3);
   transform: scale(1.5);
 }
+/* View ALL Button For the Tablet User */
+.view-all {
+  display: none;
+  text-align: center;
+  margin: 60px;
+}
+.view-all button {
+  width: 131px;
+  height: 47px;
+  color: white;
+  background-color: #dd0000;
+  padding: 12px 29px;
+  border: none;
+  border-radius: 5px;
+}
+/* ---------------
+footer Section CSS
+--------------- */
+footer {
+  text-align: center;
+  background-color: #226ee0;
+}
+footer h2 {
+  font-weight: 600;
+  font-size: 40px;
+  padding-top: 110px;
+  color: rgb(229, 229, 229);
+}
+footer hr {
+  margin: 20px 150px 20px 150px;
+  opacity: 0.4;
+}
+.footer-nav a {
+  opacity: 0.7;
+  text-decoration: none;
+  color: #b9b9b9;
+  font-size: 16px;
+}
+.footer-nav {
+  display: flex;
+  column-gap: 52px;
+  padding-top: 20px;
+  justify-content: center;
+}
+.follow-us {
+  display: flex;
+  padding: 50px;
+  column-gap: 35px;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.follow-us .fb {
+  color: lightcoral;
+}
+.follow-us .lin {
+  color: lightcoral;
+}
+.follow-us .git {
+  color: lightcoral;
+}
+.footer-head h2:hover {
+  color: crimson;
+}
+.footer-head a:hover {
+  color: snow;
+}
+/*----------------------------------------------------------------
+-------------------- Footer Section Ended Here-----------------------
+---------------------------------------------------------------- */
 
 /*------------------------------------
    Upcoming match CSS/Match.html CSS Here
@@ -360,59 +432,12 @@ main {
   font-family: "Lobster Two", cursive;
   font-weight: 600;
 }
+.flexing div:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
 .flexing img {
   border-radius: 7px;
   padding: 5px;
-}
-/* ---------------
-footer Section CSS
---------------- */
-footer {
-  text-align: center;
-  background-color: #226ee0;
-}
-footer h2 {
-  font-weight: 600;
-  font-size: 40px;
-  padding-top: 110px;
-  color: rgb(229, 229, 229);
-}
-footer hr {
-  margin: 20px 150px 20px 150px;
-  opacity: 0.4;
-}
-.footer-nav a {
-  opacity: 0.7;
-  text-decoration: none;
-  color: #b9b9b9;
-  font-size: 16px;
-}
-.footer-nav {
-  display: flex;
-  column-gap: 52px;
-  padding-top: 20px;
-  justify-content: center;
-}
-.follow-us {
-  display: flex;
-  padding: 50px;
-  column-gap: 35px;
-  justify-content: center;
-  font-size: 35px;
-}
-
-.follow-us .fb {
-  color: lightcoral;
-}
-.follow-us .lin {
-  color: lightcoral;
-}
-.follow-us .git {
-  color: lightcoral;
-}
-.footer-head h2:hover {
-  color: crimson;
-}
-.footer-head a:hover {
-  color: snow;
 }
