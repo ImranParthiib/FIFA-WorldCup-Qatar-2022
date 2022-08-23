@@ -72,8 +72,8 @@
   .banner-text h1 {
     color: white;
     font-weight: 700;
-    font-size: 24px;
-    width: 228px;
+    font-size: 30px;
+    width: 260px;
     height: 66px;
     padding-left: 100px;
     padding-top: 35px;
@@ -85,21 +85,22 @@
     font-size: 14px;
     width: 80%;
     padding-left: 40px;
-    padding-bottom: 65px;
+    padding-bottom: 30px;
   }
   .banner-text p:hover {
     font-size: 15px;
   }
   .banner-text button {
     padding: 10px 10px;
+    margin-right: 20px;
   }
   .goat {
     transform: rotateY(180deg);
-    padding-left: 60px;
+    padding-left: 25px;
   }
   .goat img {
-    width: 300px;
-    height: 300px;
+    width: 360px;
+    height: 340px;
   }
   /*------------------------------------------ Starting main Section Responsiveness 
 ------------------------------------------*/
@@ -111,26 +112,28 @@
     position: static;
     border-radius: 10px;
     width: 390px;
-    height: 240px;
+    height: 260px;
     background: #3f75c64b;
+    margin-bottom: 30px;
   }
   .menu-option div {
     padding: 15px;
+    margin-top: 27px;
   }
   .option-1 {
     width: 190px;
     height: 30px;
-    margin-left: 42px;
+    margin-left: 89px;
   }
   .option-2 {
     width: 165px;
     height: 30px;
-    margin-left: 55px;
+    margin-left: 100px;
   }
   .option-3 {
     width: 150px;
     height: 30px;
-    margin-left: 60px;
+    margin-left: 105px;
   }
   .blogs {
     display: grid;
@@ -139,12 +142,14 @@
     width: 100%;
   }
   .design {
-    width: 450px;
+    width: 420px;
     height: 480px;
     background-color: rgb(188, 223, 254);
+    margin-left: 15px;
+    margin-top: 35px;
   }
   .design img {
-    width: 450px;
+    width: 420px;
   }
   footer h2 {
     font-size: 30px;
