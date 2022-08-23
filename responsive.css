@@ -92,11 +92,10 @@
   }
   .banner-text button {
     padding: 10px 10px;
-    margin-right: 20px;
   }
   .goat {
     transform: rotateY(180deg);
-    padding-left: 25px;
+    padding-left: 14px;
   }
   .goat img {
     width: 360px;
@@ -135,7 +134,9 @@
     height: 30px;
     margin-left: 105px;
   }
-  .blogs {
+  .blogs,
+  .World-cup-Qualifiers,
+  .upcoming-matches {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
@@ -143,8 +144,18 @@
   }
   .design {
     width: 420px;
-    height: 480px;
+    height: 440px;
     background-color: rgb(188, 223, 254);
+    margin-left: 15px;
+    margin-top: 35px;
+  }
+  .World-cup-Qualifiers {
+    width: 420px;
+    margin-left: 15px;
+    margin-top: 35px;
+  }
+  .upcoming-matches {
+    width: 420px;
     margin-left: 15px;
     margin-top: 35px;
   }
@@ -171,5 +182,37 @@
     justify-content: center;
     font-size: 22px;
     row-gap: 30px;
+  }
+  /* group section contensts responsiveness */
+  .past {
+    width: 190px;
+    height: 30px;
+    margin-left: 89px;
+  }
+  .present {
+    width: 165px;
+    height: 30px;
+    margin-left: 100px;
+  }
+  .past- {
+    width: 150px;
+    height: 30px;
+    margin-left: 105px;
+  }
+  /* match Section responsiveness */
+  .no-1 {
+    width: 190px;
+    height: 30px;
+    margin-left: 89px;
+  }
+  .no-2 {
+    width: 165px;
+    height: 30px;
+    margin-left: 100px;
+  }
+  .no-3 {
+    width: 150px;
+    height: 30px;
+    margin-left: 105px;
   }
 }
