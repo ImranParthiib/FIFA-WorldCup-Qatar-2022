@@ -58,7 +58,7 @@
   }
   .banner {
     flex-direction: column;
-    width: 360px;
+    width: 450px;
     height: 660px;
     text-align: center;
     margin-bottom: 30px;
@@ -75,7 +75,7 @@
     font-size: 24px;
     width: 228px;
     height: 66px;
-    padding-left: 75px;
+    padding-left: 100px;
     padding-top: 35px;
     padding-bottom: 15px;
   }
@@ -87,12 +87,15 @@
     padding-left: 40px;
     padding-bottom: 65px;
   }
+  .banner-text p:hover {
+    font-size: 15px;
+  }
   .banner-text button {
     padding: 10px 10px;
   }
   .goat {
     transform: rotateY(180deg);
-    padding-left: 10px;
+    padding-left: 60px;
   }
   .goat img {
     width: 300px;
@@ -107,7 +110,7 @@
   .menu-option {
     position: static;
     border-radius: 10px;
-    width: 300px;
+    width: 390px;
     height: 240px;
     background: #3f75c64b;
   }
@@ -132,16 +135,16 @@
   .blogs {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 16px;
+    gap: 20px;
     width: 100%;
   }
   .design {
-    width: 360px;
-    height: 388.69px;
+    width: 450px;
+    height: 480px;
     background-color: rgb(188, 223, 254);
   }
   .design img {
-    width: 360px;
+    width: 450px;
   }
   footer h2 {
     font-size: 30px;
@@ -156,11 +159,13 @@
     flex-direction: column;
     row-gap: 20px;
     justify-content: center;
+    column-gap: 20px;
   }
   .follow-us {
     padding: 45px;
     column-gap: 40px;
     justify-content: center;
     font-size: 22px;
+    row-gap: 30px;
   }
 }
