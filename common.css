@@ -173,6 +173,7 @@ main {
 }
 .menu-option {
   position: sticky;
+  top: 0;
   background: #3f75c669;
   border-radius: 10px;
   min-width: 260px;
