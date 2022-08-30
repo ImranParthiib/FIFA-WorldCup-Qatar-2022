@@ -2,13 +2,13 @@
 ---------- Responisve CSS Is Staeted Here------------
 ----------------------------------------------------- */
 /* Media Queries For Mobile Device */
-@media only screen and (max-width: 577px) {
+@media only screen and (max-width: 520px) {
   body {
-    background-size: 100%;
   }
   header {
     display: grid;
-    grid-template-columns: 15px 300px 110px 20px;
+    grid-template-columns: 15px 250px 110px 20px;
+    max-width: 477px;
   }
   header > div {
     font-size: 8px;
@@ -219,3 +219,9 @@
     margin-left: 105px;
   }
 }
+
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* ------------------------------------- */
+
+/* Media Queries For tablet Devices */
