@@ -2,7 +2,7 @@
 ---------- Responisve CSS Is Staeted Here------------
 ----------------------------------------------------- */
 /* Media Queries For Mobile Device */
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 577px) {
   header {
     display: grid;
     grid-template-columns: 15px 300px 110px 20px;
