@@ -225,3 +225,195 @@
 /* ------------------------------------- */
 
 /* Media Queries For tablet Devices */
+/* _____________________________________________ */
+
+@media screen and (min-width: 521px) and (max-width: 1024px) {
+  header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 50% 30% 10%;
+    max-width: 1024px;
+  }
+  header > div {
+    font-size: 14px;
+  }
+  .left img {
+    padding-left: 40px;
+    width: 30px;
+    height: 45px;
+  }
+  .uses {
+    padding-left: 20px;
+    padding-top: 8px;
+  }
+  .uses .active {
+    font-size: 22px;
+  }
+  .uses a {
+    padding-left: 4px;
+  }
+  .user {
+    padding-top: 11px;
+    padding-left: 50px;
+    font-size: 16px;
+  }
+  .user button {
+    border-radius: 10px;
+    padding-top: 0px;
+  }
+  .right img {
+    padding-right: 10px;
+    width: 30px;
+    height: 45px;
+  }
+  .user .fa-magnifying-glass {
+    padding-right: 3px;
+  }
+  .user .active {
+    font-size: 17px;
+  }
+  .user .passive {
+    font-size: 17px;
+  }
+
+  /* Banner section Responsiveness */
+  main {
+    margin: 25px 16px 0px 16px;
+    width: 100%;
+  }
+  .banner {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #3574d2c4;
+  }
+  .banner-text {
+    width: 70%;
+  }
+  .banner-text h1 {
+    width: 70%;
+    font-size: 50px;
+  }
+  .banner-text p {
+    width: 60%;
+  }
+  .banner-text p:hover {
+  }
+  .banner-text button {
+    margin-top: 70px;
+  }
+  .goat {
+    padding-right: 0%;
+  }
+  .goat img {
+    width: 30%;
+    width: 300px;
+    height: 600px;
+  }
+  /*------------------------------------------ Starting main Section Responsiveness 
+------------------------------------------*/
+  .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 80px;
+  }
+  .menu-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    position: static;
+  }
+  .menu-option div {
+    min-width: 30%;
+  }
+  .option-1 {
+  }
+  .option-2 {
+  }
+  .option-3 {
+  }
+  .blogs,
+  .World-cup-Qualifiers,
+  .upcoming-matches {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+  }
+  .design {
+    width: 420px;
+    height: 440px;
+    background-color: rgb(188, 223, 254);
+    margin-left: 15px;
+    margin-top: 35px;
+  }
+  .World-cup-Qualifiers {
+    width: 420px;
+    margin-left: 15px;
+    margin-top: 35px;
+  }
+  .upcoming-matches {
+    width: 420px;
+    margin-left: 15px;
+    margin-top: 35px;
+  }
+  .design img {
+    width: 420px;
+  }
+  footer h2 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
+  footer hr {
+    margin: 15px 100px 15px 100px;
+    opacity: 0.4;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    column-gap: 20px;
+  }
+  .follow-us {
+    padding: 45px;
+    justify-content: center;
+    font-size: 22px;
+    row-gap: 20px;
+  }
+  /* group section contensts responsiveness */
+  .past {
+    width: 190px;
+    height: 30px;
+    margin-left: 89px;
+  }
+  .present {
+    width: 165px;
+    height: 30px;
+    margin-left: 100px;
+  }
+  .past- {
+    width: 150px;
+    height: 30px;
+    margin-left: 105px;
+  }
+  /* match Section responsiveness */
+  .no-1 {
+    width: 190px;
+    height: 30px;
+    margin-left: 89px;
+  }
+  .no-2 {
+    width: 165px;
+    height: 30px;
+    margin-left: 100px;
+  }
+  .no-3 {
+    width: 150px;
+    height: 30px;
+    margin-left: 105px;
+  }
+}
