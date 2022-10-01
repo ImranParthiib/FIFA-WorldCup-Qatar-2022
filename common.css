@@ -255,6 +255,7 @@ main {
 .click-para a:hover {
   text-decoration: none;
   /* color: aliceblue; */
+  color: rgb(198, 84, 3);
 }
 .time-chat {
   margin: 12px;

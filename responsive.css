@@ -347,16 +347,12 @@
     margin-left: 15px;
     margin-top: 35px;
   }
-  .World-cup-Qualifiers {
-    width: 420px;
-    margin-left: 15px;
+  .final-groups,
+  .match-details {
+    width: 75%;
     margin-top: 35px;
   }
-  .upcoming-matches {
-    width: 420px;
-    margin-left: 15px;
-    margin-top: 35px;
-  }
+
   .blogs {
     gap: 1px;
   }
