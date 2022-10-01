@@ -218,6 +218,10 @@
     height: 30px;
     margin-left: 105px;
   }
+  .footer-link-1,
+  .footer-link-2 {
+    display: none;
+  }
 }
 
 /* ------------------------------------- */
@@ -279,7 +283,6 @@
   /* Banner section Responsiveness */
   main {
     margin: 25px 16px 0px 16px;
-    width: 100%;
   }
   .banner {
     width: 100%;
@@ -314,26 +317,20 @@
   .contents {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+
     padding-bottom: 80px;
   }
   .menu-option {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    justify-content: space-evenly;
     align-items: center;
-    background-color: #fff;
+    gap: 20px;
+    padding: 5%;
     position: static;
   }
   .menu-option div {
-    min-width: 30%;
-  }
-  .option-1 {
-  }
-  .option-2 {
-  }
-  .option-3 {
+    min-width: 25%;
+    height: 40px;
   }
   .blogs,
   .World-cup-Qualifiers,
@@ -360,60 +357,73 @@
     margin-left: 15px;
     margin-top: 35px;
   }
-  .design img {
-    width: 420px;
+  .blogs {
+    gap: 1px;
   }
-  footer h2 {
+  .design {
+    width: 90%;
+  }
+  .design img {
+    width: 100%;
+  }
+
+  /* View ALL for Tablet Version */
+  .view-all {
+    display: grid;
+    justify-content: center;
+  }
+  .view-all button:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+    color: aqua;
+  }
+  /* View ALL for Tablet Version */
+  /* END Here View ALL */
+
+  /* Footer Section Started here */
+  /* footer h2 {
     font-size: 30px;
     padding-top: 60px;
-  }
+  } */
   footer hr {
-    margin: 15px 100px 15px 100px;
+    margin: 15px 60px 15px 60px;
     opacity: 0.4;
   }
   .footer-nav {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    justify-content: center;
-    column-gap: 20px;
+    display: none;
   }
-  .follow-us {
-    padding: 45px;
-    justify-content: center;
-    font-size: 22px;
-    row-gap: 20px;
+  .footer-link-1 a,
+  .footer-link-2 a {
+    opacity: 0.7;
+    text-decoration: none;
+    color: #b9b9b9;
+    font-size: 16px;
+    padding: 5%;
   }
-  /* group section contensts responsiveness */
-  .past {
-    width: 190px;
-    height: 30px;
-    margin-left: 89px;
+  .footer-link-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+
+    padding-top: 20px;
   }
-  .present {
-    width: 165px;
-    height: 30px;
-    margin-left: 100px;
+  .footer-link-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    row-gap: 30px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 10px;
   }
-  .past- {
-    width: 150px;
-    height: 30px;
-    margin-left: 105px;
-  }
-  /* match Section responsiveness */
-  .no-1 {
-    width: 190px;
-    height: 30px;
-    margin-left: 89px;
-  }
-  .no-2 {
-    width: 165px;
-    height: 30px;
-    margin-left: 100px;
-  }
-  .no-3 {
-    width: 150px;
-    height: 30px;
-    margin-left: 105px;
+}
+
+/* Media Queries For Footer in DEsktop Screen */
+
+@media screen and (min-width: 1024px) and (max-width: 5024px) {
+  .footer-link-1,
+  .footer-link-2 {
+    display: none;
   }
 }
