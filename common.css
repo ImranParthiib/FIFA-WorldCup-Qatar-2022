@@ -8,9 +8,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #226ee0ae;
+  background: linear-gradient(to right, #c5bdbd, #5781b5,#01124a7b);
+  
 }
 header {
   background-color: #3364ba;
+  background: linear-gradient(120deg, #19221d, #ffffff);
+  background: linear-gradient(to bottom right, #ff00ffbe, #00f40069);
   border-radius: 10px;
   display: grid;
   grid-template-columns: 80px 1000px 315px 80px;
@@ -92,6 +96,9 @@ main {
 .banner {
   display: flex;
   background-color: #3574d2;
+ 
+  /* background: linear-gradient(to bottom right, #ff00ffbe, #00f40069); */
+  background: linear-gradient(120deg, #b78cdd, #a8ba32);
   margin-bottom: 130px;
   position: relative;
   border-radius: 20px;
@@ -129,6 +136,7 @@ main {
 }
 .banner-text button {
   background-color: rgb(239, 14, 14);
+  background: linear-gradient(to right, #ff0000, #00ff009a);
   margin-top: 15px;
   color: bisque;
   font-size: 20px;
@@ -175,6 +183,7 @@ main {
   position: sticky;
   top: 40px;
   background: #3f75c669;
+  background: linear-gradient(to bottom right, #ff00ffbe, #00f40069);
   border-radius: 10px;
   min-width: 260px;
   height: 260px;
@@ -205,6 +214,7 @@ main {
 }
 .option-3 {
   background-color: crimson;
+  background: linear-gradient(to right, #ff0000, #00ff00);
 }
 .option-3 a {
   color: aliceblue;
@@ -226,6 +236,8 @@ main {
   border: 1px solid rgba(217, 203, 203, 0.937);
   border-radius: 10px;
   background-color: rgb(188, 223, 254);
+  background: linear-gradient(to bottom right, #59ff00be, #00f4f069);
+  background: linear-gradient(to bottom right, #ff00ffbe, #00f40069);
 }
 .design img {
   border-radius: 10px 10px 0 0;
@@ -302,6 +314,7 @@ footer Section CSS
 footer {
   text-align: center;
   background-color: #226ee0;
+  background: linear-gradient(120deg, #2b3e4d, #20bf6b);
 }
 footer h2 {
   font-weight: 600;
@@ -357,6 +370,7 @@ footer hr {
  ------------------------------------- */
 .no-1 {
   background-color: crimson;
+  background: linear-gradient(to right, #ff0000, #00ff00);
 }
 .no-2 {
   background-color: aliceblue;
@@ -378,6 +392,7 @@ footer hr {
   border-radius: 10px;
   padding: 40px;
   background-color: rgb(188, 223, 254);
+  background: linear-gradient(120deg, #3fa5f5, #20bf6b);
 }
 .flags {
   display: flex;
@@ -420,12 +435,14 @@ footer hr {
 }
 .present {
   background-color: crimson;
+  background: linear-gradient(to right, #ff0000, #00ff00);
 }
 .present a {
   color: aliceblue;
 }
 .final-groups {
   background-color: rgb(188, 223, 254);
+  background: linear-gradient(to bottom right, #ff00ffbe, #00f40069);
   border: 1px solid rgba(252, 203, 203, 0.698);
   border-radius: 10px;
   padding: 40px;
