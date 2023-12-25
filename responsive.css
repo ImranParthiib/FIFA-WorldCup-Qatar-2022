@@ -420,7 +420,75 @@
 
 /* Media Queries For Footer in DEsktop Screen */
 
-@media screen and (min-width: 1024px) and (max-width: 5024px) {
+@media screen and (min-width: 1025px) and (max-width: 1550px) {
+  header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 7% 60% 26% 10%;
+    max-width: 5024px;
+  }
+  .banner {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #3574d2c4;
+    height: 600px;
+  }
+  header h1 {
+  }
+  .banner-text h1 {
+    font-size: 45px;
+  }
+  .goat img {
+    width: 580px;
+    height: 580px;
+  }
+  .contents {
+    max-width: 100%;
+  }
+  .menu-option {
+    min-width: 0px;
+    height: 250px;
+    padding: 28px;
+  }
+  .menu-option div {
+    padding: px;
+  }
+
+  .design {
+    width: 245px;
+    height: 365px;
+  }
+  .design img {
+    width: 400px;
+  }
+
+  .footer-link-1,
+  .footer-link-2 {
+    display: none;
+  }
+}
+
+/* For the bigger screen  */
+@media screen and (min-width: 1524px) and (max-width: 5024px) {
+  header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 7% 60% 26% 10%;
+    max-width: 5024px;
+  }
+  .banner {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #3574d2c4;
+  }
+  .contents {
+    max-width: 100%;
+  }
+  .design {
+    width: 330px;
+    height: 365px;
+  }
+
   .footer-link-1,
   .footer-link-2 {
     display: none;
